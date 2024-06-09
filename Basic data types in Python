@@ -1,0 +1,22 @@
+#LIST
+list=[10,20,30,40,50]
+list.append(60)
+list.remove(30)
+list[0]=10
+print(list)
+
+#DICTIONARY
+dict={}
+dict={'name':'Gaurav','age':20,'city':"Hyderabad"}
+dict['gender']='Male'
+del dict['age']
+dict['city']="Attapur"
+print(dict)
+
+#SET
+set={10,20,30,40,50}
+set.add(60)
+set.remove(30)
+set.discard(1)
+set.add(10)
+set
